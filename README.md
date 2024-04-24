@@ -6,4 +6,9 @@
 
 2. `amqp://guest:guest@localhost:5672` is in the format of `protocol://username:password@hostname:port`. Protocol is the protocol used to connect to the server, which in this case is AMQP. Username and password are the credentials used to authenticate with the server, which in this case are guest and guest. Hostname is the address of the server, which in this case is localhost. Port is the port number on which the server is listening for connections, which in this case is 5672.
 
+### Simulating Slow Subscriber
+![](image_1.png)
 
+### Reflection and Running atleast Three Subscribers
+![](image_2.png)
+![](image_3.png)
